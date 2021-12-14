@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>William Wu</title>
+    <link rel="shortcut icon" type="image/png" href="img/wufavicon.png">
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+           <!-- <h2> -->
+            <h2 class="logo"><a class = "logo" href="index.html">武</a></h2>
+                <div class="toggle"></div>
+            <!-- </h2> -->
+        </header>
+        <video src="Astronaut-in-Space-Loops-_-4K-Royalty-Free-Background-Video.mp4" muted loop autoplay> </video> 
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>H e l l o</h2>
+            <h3>你 好</h3>
+            <p>Hi, I'm William, you can find me at Instagram and Github below.</p>
+            <p>Free free to look around!</p>
+            <a href="https://www.williamleyiwu.com">Explore</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="https://github.com/William-Wuu" target="_blank"><i class="fab fa-github fa-2x" style="color:black"></i></a></li>
+            <li><a href="https://www.instagram.com/will._.wu/" target="_blank"><i class="fab fa-instagram fa-2x" style="color:black"></i></a></li>
+        </ul>   
+    </section>
+    <div class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutme.html">About me</a></li>
+          <li><a href="blogging.html">Blog</a></li>
+        </ul>
+      </div>
+      <script>
+          const menuToggle = document.querySelector('.toggle')
+          const showcase = document.querySelector('.showcase')
+
+          menuToggle.addEventListener('click',() =>{
+              menuToggle.classList.toggle('active')
+              showcase.classList.toggle('active')
+          })
+      </script>
+</body>
+</html>
