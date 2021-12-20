@@ -116,6 +116,16 @@ header .logo
   color: #fff;
   line-height: 1em;
 }
+
+.text h4
+{
+  position: fixed;
+  font-size: 1em;
+  font-weight: 530;
+  color: #fff;
+	bottom: 70px;
+}
+
 .text p
 {
   font-size: 1.1em;
