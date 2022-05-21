@@ -119,7 +119,7 @@ header .logo
 
 .text h4
 {
-  position: relative;
+  position: fixed;
   font-size: 1em;
   font-weight: 530;
   color: #fff;
